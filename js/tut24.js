@@ -1,0 +1,25 @@
+console.log("Welcome to tutorial 24");
+let todayDate = new Date();
+// console.log(todayDate);
+// console.log(typeof todayDate);
+
+let otherdate=new Date('8-4-2003 04:54:08');
+//  otherdate=new Date('June 16 1976');
+//  otherdate=new Date('09/16/1976');
+console.log(otherdate);
+let a;
+a= otherdate.getDay();
+a= otherdate.getDate();
+a= otherdate.getMinutes();
+a= otherdate.getSeconds();
+a= otherdate.getMilliseconds();
+a= otherdate.getTime();
+a= otherdate.getMonth();
+otherdate.setDate(23);
+otherdate.setMonth(0);
+otherdate.setFullYear(2003);
+otherdate.setMinutes(1);
+otherdate.setHours(2);
+otherdate.setSeconds(3);
+// console.log(a);
+console.log(otherdate);
